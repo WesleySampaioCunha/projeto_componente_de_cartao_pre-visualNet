@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body {
+    background: linear-gradient(to right, #012030, #012030e3);
+}
+
+.container {
+    margin: 0 auto;
+    width: 500px;
+    height: 550px;
+    background-color: #012030;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+#imagem img {
+    width: 200px;
+    height: 300x;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+#relogio {
+    border-bottom: 1px solid black;
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+}
+
+#user {
+    margin-top: 20px;
+}
+
+#user img {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: left;
+    margin-left: -80px;
+}
+
+#user p {
+    display: inline-block;
+    margin: 0 2px;
+    margin-top: 15px;
+    width: 400px;
+    max-width: 100px;
+    height: 0px;
+    columns: 1;
+}
+
+#user strong {
+    margin-right: 10px;
+    margin-left: -11px;
+    left: 50px;
+    right: 30px;
+    text-align: left;
+}
