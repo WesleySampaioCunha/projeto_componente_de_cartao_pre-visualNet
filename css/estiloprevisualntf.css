@@ -6,54 +6,93 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 500px;
+    width: 380px;
     height: 550px;
     background-color: #012030;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     border-radius: 20px;
 }
 
 #imagem img {
-    width: 200px;
-    height: 300x;
+    width: 300px;
+    height: 250x;
     margin-top: 10px;
     border-radius: 30px;
 }
 
-#relogio {
-    border-bottom: 1px solid black;
-    width: 200px;
-    margin: auto;
-    padding: 20px;
+h2 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    color: white;
+    font-size: 14pt;
+    margin-left: 40px;
 }
 
-#user {
+#primeira-frase {
+    text-align: center;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: white;
+    
+}
+
+#seunda-frase {
+    text-align: center;
+    margin: 0 auto;
+    margin-right: 110px;
+    font-size: 13pt;
+    color: white;
+}
+
+#imagem1, #relogio {
+    margin: 45px;
     margin-top: 20px;
+    align-items: center;
+} 
+
+#strong-eth {
+    margin-left: 10px;
+    color: rgb(0, 255, 242);
 }
 
-#user img {
-    width: 50px;
-    border: 1px solid white;
-    border-radius: 50%;
-    text-align: left;
-    margin-left: -80px;
-}
 
-#user p {
-    display: inline-block;
-    margin: 0 2px;
+
+#barra {
+    width: 330px;
+    border-bottom: 1px solid white;
+    margin: 0 auto;
     margin-top: 15px;
-    width: 400px;
-    max-width: 100px;
-    height: 0px;
-    columns: 1;
 }
 
-#user strong {
+
+#user-principal {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 10px auto;
+    margin-left: 40px;
+}
+
+#user-principal > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
     margin-right: 10px;
-    margin-left: -11px;
-    left: 50px;
-    right: 30px;
-    text-align: left;
+    border: 1px solid white;
+    margin-top: 5px;
+}
+
+#texto-crate {
+    color: rgba(128, 128, 128, 0.64);
+}
+
+#name-create {
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: end;
 }
